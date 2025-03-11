@@ -1,0 +1,29 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.controls button {
+    background-color: #0d8111;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.distance-info {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #08417f;
+}
